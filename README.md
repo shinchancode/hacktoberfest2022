@@ -6,9 +6,13 @@ hacktoberfest-accepted
 # Tech Stack included:
 
 Data Structures and Algorithms
+
 Computer Graphics
+
 Web Development
+
 Android Development 
+
 
 ## Rules To Contribute To This Repository
 
