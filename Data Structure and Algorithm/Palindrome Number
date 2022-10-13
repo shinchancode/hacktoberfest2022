@@ -1,0 +1,24 @@
+
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+bool isPalindrome(int x) {
+    string rev = to_string(x);
+    reverse(rev.begin(), rev.end());
+    return to_string(x) == rev;
+}
+
+
+
+int main()
+{
+    int x;
+    cin>>x;
+    if(isPalindrome(x)){
+        cout<<"True";
+    }else{
+        cout<<"False";
+    }
+    return 0;
+}
