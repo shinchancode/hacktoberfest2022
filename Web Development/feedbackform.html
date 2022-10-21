@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  transition: ease 0.2s;
+  font-family: Open Sans;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+body {
+  background: #f2f6ff;
+}
+
+.container {
+  background: #f8faff;
+  color: #4b537c;
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: #dee8fe 0 10px 20px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.para {
+  font-weight: 600;
+}
+
+.feedback-level {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.level {
+  background: white;
+  padding: 13px;
+  border-radius: 7px;
+  border: solid 0.5px #e0e9fe;
+  cursor: pointer;
+}
+.level:hover {
+  box-shadow: #fe73a5 0 2px 5px;
+}
+.level:hover i {
+  color: #fe73a5;
+}
+.level i {
+  font-size: 40px;
+}
+
+.feedback-msg textarea {
+  margin-top: 5px;
+  border: solid 2px #e0e9fe;
+  padding: 13px;
+  border-radius: 7px;
+  outline: none;
+  font-size: 14px;
+  color: #4b537c;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 80px;
+  resize: none;
+}
+
+.agreement .checkbox {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.agreement input {
+  accent-color: #ff71a4;
+}
+.agreement a {
+  color: #ff71a4;
+  font-size: 12px;
+  font-weight: 600;
+}
+.agreement label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+.buttons a {
+  background: white;
+  color: #4b537c;
+  width: 80px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+.buttons a:hover {
+  opacity: 0.9;
+}
+.buttons a:nth-child(1) {
+  background: #fe71a4;
+  color: #f8faff;
+}
+
+</style>
+<form class="container">
+  <h1 class="heading">Give feedback</h1>
+  <p class="para">What do you think of the issue search experience within the project?</p>
+
+  <div class="feedback-level">
+    <div class="level">
+      <i class="lar la-sad-tear"></i>
+    </div>
+    <div class="level">
+      <i class="las la-frown"></i>
+    </div>
+    <div class="level">
+      <i class="lar la-meh"></i>
+    </div>
+    <div class="level">
+      <i class="lar la-smile"></i>
+    </div>
+    <div class="level">
+      <i class="lar la-grin"></i>
+    </div>
+  </div>
+
+  <div class="feedback-msg">
+    <p class="para">
+      What are the main reasons for your rating?
+    </p>
+    <textarea name="" id=""></textarea>
+  </div>
+
+  <div class="agreement">
+    <div class="checkbox">
+      <input type="checkbox" name="" id="">
+      <label for="">I may be contacted about this feedback <a href="#">Privacy Policy</a>.</label>
+    </div>
+    <div class="checkbox">
+      <input type="checkbox" name="" id="">
+      <label for="">I'd like to help improve by joining the <a href="#">Reasearch Group</a>.</label>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="javascript:alert('Thanks for submiting your feedback')">Submit</a>
+    <a href="You just cancelled your to submit the feedback">Cancel</a>
+  </div>
+</form>
+</html>
