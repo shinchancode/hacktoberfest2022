@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<style>
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #C8D1BA;
+  margin: 0px;
+  /* Normalize*/
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+/*******  HEADER  *******/
+
+.header  {
+  background-image: url('https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2022/09/28094927/Uno_HackFest22_Hero_V1-1024x395.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+  border-top: 17px solid #9dac85;
+  text-align: center;
+  padding-top: 190px;
+  box-shadow: 3px 3px 5px 6px #ccc;
+  
+}
+
+.header  h3, h1 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  letter-spacing: 0.25em;
+  /*font-weight: 800;*/
+}
+
+.header  h1 {
+  font-size: 2.8rem;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.header h3 {
+  font-size: 1.5rem;
+}
+
+
+/*******  MIDCONTENT  *******/
+
+.midsection1, 
+.midsection2, 
+.midsection3  {
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+.midsection1 h3, 
+.midsection2 h3, 
+.midsection3 h3 {
+  margin-bottom: 40px;
+  letter-spacing: 0.3em;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.midsection1 p, 
+.midsection2 p, 
+.midsection3 p {
+  margin-bottom: 40px;
+}
+
+.midsection3 p:last-child {
+  margin-top: 160px;
+}
+
+.midcontent {
+  padding: 100px 250px;
+  font-family: Verdana;
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+.midcontent h3 {
+  font-size: 1.5rem;
+}
+
+.willk {
+  font-size: 1.3rem;
+}
+
+
+/*******  FOOTER  *******/
+
+.footer {
+  background-color: #8e8288;
+  height: 180px;
+  text-align: center;
+  padding-top: 30px;
+  max-width: 100%;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 0.9rem;
+  border-bottom: 17px solid #50122f;
+}
+
+.footer li {
+  display: inline;
+  margin-left: 100px;
+}
+
+.footer ul {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 10%;
+}
+
+.footer p:last-child {
+  margin-left: ;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #7b3757;
+  font-weight: 900;
+}
+
+.footer a:hover {
+  color: #50122f;
+}
+
+
+/*******  MEDIA QUERIES  *******/
+
+@media (min-width: 1400px) {
+  .midcontent {
+  /*padding: 100px 300px;*/
+  max-width: 70%;
+  margin: auto;
+  }  
+}
+
+@media (max-width: 1024px) {
+  .midcontent  {
+    max-width: 70%;
+    margin: auto;
+    padding: 5% 5%;
+  }
+  .footer {
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+   .midsection3 p:last-child  {
+    text-align: left;
+  }
+  .midsection3 p:last-child {
+  margin-top: 90px;
+}
+  .footer {
+    padding-bottom: 170px;
+    max-width: 100%;
+    margin: auto;    
+  }
+  .footer ul {
+    max-width: 90%;
+    margin: auto;
+  }
+  .footer li {
+    margin: auto;
+  }
+
+}  
+</style> 
+ 
+<header>
+    <div class="header">
+      <h3 class="hh4"></h3>
+      <h1 class="hh1"></h1>
+    </div>
+  </header>
+  <div class="midcontent">
+    <section class="midsection1">
+      <h3>Introduction</h3>
+      <p> we are accepting the genuine pull requests for hacktoberfest and we make sure you learn something here and grab good swags and gifts! </p>
+      <p>Hacktoberfest is a month-long celebration run by DigitalOcean to celebrate and give back to open source projects and software. The initiative is open to everyone, and the goal is to encourage everyone in our global community to contribute to open source.</p>
+      
+    
+      <p> We accept all tech stack basics and good pull requests only. Before starting, please go through the guidelines to start hacktoberfest 2022. </p>
+    </section>
+    <section class="midsection3">
+        <h3>Why should I participate in Hacktoberfest?</h3>
+      <p> <br>
+        Everyone relies on open source projects today. This initiative is a way of giving back, thanking the maintainers and contributors of these projects, and celebrating these projects.
+        
+        Besides, contributing to open source projects comes with many benefits, from real-world exposure and community recognition to learning how to collaborate while networking, upskilling, getting a tree planted in your name, and getting a Hacktoberfest t-shirt.
+        
+        Yes, the first 40,000 participants (maintainers and contributors) who get at least four pull requests accepted before the deadline get a tree planted in their name or the Hacktoberfest 2022 t-shirt.</p>
+      <p> Visit this main website of Hacktoberfest to know more and get started!! <a href="https://hacktoberfest.com/"><b> hacktoberfest2022!</b></a></p> 
+      <p><b class="willk"> happy Pull requests!</b> </p>
+    </section>
+  </div>
+  <footer class="footer">
+    <p>Get started to make a pr to our own repo for with hacktoberfest repo:</p>
+    <ul>
+      <li><a href="https://github.com/shinchancode/hacktoberfest2022">Github</a></li>
+    </ul>
+  
+  </footer>
+
+  </html>
