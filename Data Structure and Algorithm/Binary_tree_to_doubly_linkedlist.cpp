@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* Aarti Rathi
+Army institute of Technology Pune */
+
 struct Node  
 { 
   int key; 
